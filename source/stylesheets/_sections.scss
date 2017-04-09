@@ -1,0 +1,56 @@
+#section-overview {
+  h2 {
+    color: #fff;
+  }
+  .data-point-large {
+    color: $turing-color;
+    margin-top: 70px;
+  }
+}
+
+#section-requirements {
+  h2, ul {
+    margin-bottom: 30px;
+  }
+}
+
+#section-graduation-data {
+  h2, p {
+    color: $turing-color-dark;
+  }
+}
+
+#section-employment-results {
+  h3 {
+    margin: 30px 0;
+  }
+  .data-point-md {
+    color: $turing-color;
+  }
+}
+
+#interstitial {
+  width: 100%;
+  min-height: 300px;
+  padding: 0;
+}
+
+#section-employment-results-primary,
+#section-employment-results-secondary {
+  .data-point-md {
+    color: $turing-color;
+  }
+}
+
+#section-job-titles {
+  h2, p, .data-point-md {
+    color: $turing-color-dark;
+  }
+  .table-data {
+    border-color: $turing-color-dark;
+  }
+}
+
+#section-cs-degree h2, div {
+  color: #fff;
+}

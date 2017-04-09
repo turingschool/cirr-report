@@ -1,5 +1,7 @@
-body {
-  background-color: magenta;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+@import 'normalize';
+@import 'config';
+@import 'scaffold';
+@import 'typography';
+@import 'components';
+@import 'sections';
+@import 'masthead';

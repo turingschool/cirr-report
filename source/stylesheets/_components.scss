@@ -1,0 +1,30 @@
+.colored-border {
+  display: flex;
+}
+
+.frontend,
+.backend,
+.turing {
+  width: 33.3333%;
+  height: 10px;
+}
+
+.frontend {
+  background: $frontend-color;
+}
+
+.backend {
+  background: $backend-color;
+}
+
+.turing {
+  background: $turing-color;
+}
+
+.black-bg {
+  background-color: #212121;
+}
+
+.blue-bg {
+  background-color: $turing-color;
+}

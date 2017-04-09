@@ -1,5 +1,235 @@
 ---
-title: Welcome to Middleman
+title: CIRR Report
 ---
 
-h1 Middleman is Running
+section#section-requirements
+  h2 Requirements
+  ul
+    li Individual Assessment
+    li Project requirements
+    li Professional Development requirements
+    li Community requirements
+    li Solicited and compiled feedback from peers
+
+  p Full pass criteria can be found here: <a href='https://github.com/turingschool/portfolios'>https://github.com/turingschool/portfolios</a>
+
+section#section-overview.black-bg
+  h2 Overview
+  article.hero-data
+    div#overview-grad-circle
+    p Percentage of students that graduated within 100% of published program length.
+  article.hero-data
+    div#overview-employed-circle
+    p Percentage of students employed in full time, paid field positions withing 180 days of graduation.
+  article.hero-data
+    div.data-point-large $75,000
+    p Median annual base salary of graduates with paid, in-field jobs.
+
+section#section-graduation-data.blue-bg
+  h2 Graduation Data
+  article.hero-data
+    div#grad-data-reg-program-circle
+    p Percentage of students that graduated within 100% of published program length.
+  article.hero-data
+    div#grad-data-long-program-circle
+    p Percentage of students that graduated within 150% of published program length.
+  article.hero-data
+    = partial 'layouts/fpo'
+
+section#section-employment-results-primary
+  h2 Employment Results
+  h3 Employed Full Time in Paid, In Field Positions
+  article.hero-data
+    div#employment-90-circle
+    p Within 90 Days
+  article.hero-data
+    div#employment-180-circle
+    p Within 180 Days
+  article.hero-data
+    = partial 'layouts/fpo'
+  section.table-grid
+    article.table-data
+      p.heading Full time employee
+      p.data-point-md 63%
+      p Within 90 Days
+      p.data-point-md 72%
+      p Within 90 Days
+    article.table-data
+      p.heading Full time apprenticeship, internship, contract position
+      p.data-point-md 1%
+      p Within 90 Days
+      p.data-point-md 3%
+      p Within 180 Days
+    article.table-data
+      p.heading Hired by school in field
+      p.data-point-md 4%
+      p Within 90 Days
+      p.data-point-md 6%
+      p Within 180 Days
+
+  h3 Employed in Other Positions
+  article.hero-data
+    div#employ-position-90-circle
+    p Within 90 Days
+  article.hero-data
+    div#employ-position-180-circle
+    p Within 180 Days
+  article.hero-data
+    = partial 'layouts/fpo'
+  section.table-grid
+    article.table-data
+      p.heading Started a new company or venture after graduation
+      p.data-point-md 0%
+      p Within 90 Days
+      p.data-point-md 0%
+      p Within 90 Days
+    article.table-data
+      p.heading Short-term contract or part-time position
+      p.data-point-md 4%
+      p Within 90 Days
+      p.data-point-md 4%
+      p Within 180 Days
+    article.table-data
+      p.heading Hired by school out of field
+      p.data-point-md 0%
+      p Within 90 Days
+      p.data-point-md 0%
+      p Within 180 Days
+    article.table-data
+      p.heading Out of field
+      p.data-point-md 0%
+      p Within 90 Days
+      p.data-point-md 0%
+      p Within 180 Days
+
+section#interstitial
+  img src='images/girls-laptop.png' alt='Two girls pair programming in a classroom setting'
+
+section#section-employment-results-secondary
+  h3 Not Employed
+  article.hero-data
+    div#not-employed-90-circle
+    p Within 90 Days
+  article.hero-data
+    div#not-employed-180-circle
+    p Within 180 Days
+  article.hero-data
+    = partial 'layouts/fpo'
+  section.table-grid
+    article.table-data
+      p.heading Unemployed and still seeking a job
+      p.data-point-md 18%
+      p Within 90 Days
+      p.data-point-md 7%
+      p Within 90 Days
+    article.table-data
+      p.heading Unemployed and not seeking a job
+      p.data-point-md 0%
+      p Within 90 Days
+      p.data-point-md 0%
+      p Within 180 Days
+
+  h3 Did Not Respond to Survey
+  article.hero-data
+    div#no-response-90-circle
+    p Within 90 Days
+  article.hero-data
+    div#no-response-180-circle
+    p Within 180 Days
+  article.hero-data
+    = partial 'layouts/fpo'
+
+  h3 Median Annual Base Salary of Graduates with Paid, In-Field Jobs
+  div.data-point-lg $75,000
+
+  = partial 'layouts/fpo'
+
+  section.table-grid
+    article.table-data
+      p.heading Under $60,000
+      p.data-point-md 4%
+      p Within 90 Days
+      p.data-point-md 7%
+      p Within 90 Days
+    article.table-data
+      p.heading $60,000-$69,999
+      p.data-point-md 22%
+      p Within 90 Days
+      p.data-point-md 22%
+      p Within 180 Days
+    article.table-data
+      p.heading $70,000-$79,999
+      p.data-point-md 36%
+      p Within 90 Days
+      p.data-point-md 33%
+      p Within 180 Days
+    article.table-data
+      p.heading $80,000-$89,999
+      p.data-point-md 22%
+      p Within 90 Days
+      p.data-point-md 22%
+      p Within 180 Days
+    article.table-data
+      p.heading $90,000-$99,999
+      p.data-point-md 10%
+      p Within 90 Days
+      p.data-point-md 9%
+      p Within 180 Days
+    article.table-data
+      p.heading $100,000-$109,999
+      p.data-point-md 6%
+      p Within 90 Days
+      p.data-point-md 5%
+      p Within 180 Days
+    article.table-data
+      p.heading Over $110,999
+      p.data-point-md 0%
+      p Within 90 Days
+      p.data-point-md 2%
+      p Within 180 Days
+
+  h3 Percentage of job obtainers who reported salaries
+  div.data-point-lg 95%
+
+section#section-job-titles.blue-bg
+  h2 Frequent Job Titles
+  section.table-grid
+    article.table-data
+      p.heading Software Engineer
+      p.data-point-md 34%
+    article.table-data
+      p.heading Software Developer
+      p.data-point-md 23%
+    article.table-data
+      p.heading Developer
+      p.data-point-md 14%
+    article.table-data
+      p.heading Instructor
+      p.data-point-md 6%
+    article.table-data
+      p.heading Web Developer
+      p.data-point-md 3%
+    article.table-data
+      p.heading Full Stack Engineer
+      p.data-point-md 3%
+    article.table-data
+      p.heading QA / Tester
+      p.data-point-md 1%
+    article.table-data
+      p.heading Front End Engineer
+      p.data-point-md 1%
+    article.table-data
+      p.heading Analyst
+      p.data-point-md 1%
+    article.table-data
+      p.heading Devops
+      p.data-point-md 1%
+    article.table-data
+      p.heading Other
+      p.data-point-md 3%
+
+section#section-cs-degree.black-bg
+  h2 Students With Prior Computer Science Degree
+  div.data-point-lg 6%
+
+= partial 'layouts/coloredborder'

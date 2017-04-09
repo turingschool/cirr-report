@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('/fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('/fonts/HelveticaNeueLTStd-Bd.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaRoman';
+  src: url('/fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
+}
+
+body {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'HelveticaBold';
+  font-size: 40px;
+  color: $headline-grey;
+}
+
+h3 {
+  font-family: 'RobotoSlab';
+  font-size: 18px;
+  color: $subheadline-grey;
+}
+
+h4,
+li,
+p {
+  font-family: 'HelveticaRoman';
+  color: $bodycopy-grey;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: $turing-color;
+}
+
+.nav-link {
+  font-family: 'HelveticaBold';
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.data-point-md,
+.data-point-lg {
+  font-family: 'HelveticaBold';
+}
+
+.data-point-md {
+  font-size: 45px;
+}
+.data-point-lg {
+  font-size: 60px;
+}
+
+.table-data .heading {
+  text-transform: uppercase;
+}
