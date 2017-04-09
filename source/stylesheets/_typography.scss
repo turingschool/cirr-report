@@ -72,8 +72,10 @@ a {
 }
 .data-point-lg {
   font-size: 60px;
+  color: $headline-grey;
 }
 
 .table-data .heading {
+  min-height: 45px;
   text-transform: uppercase;
 }

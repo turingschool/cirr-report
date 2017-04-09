@@ -28,3 +28,38 @@
 .blue-bg {
   background-color: $turing-color;
 }
+
+.hero-data {
+  width: 300px;
+  text-align: center;
+  color: $bodycopy-grey;
+}
+
+.table-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.table-data {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #c9c9c9;
+  flex: 1 0 100%;
+}
+
+
+@media #{$media-460px} {
+  .table-data {
+    max-width: 230px;
+    margin-right: 30px;
+    flex: 0 0 230px;
+  }
+}
+
+@media #{$media-720px} {
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

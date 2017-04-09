@@ -6,7 +6,6 @@ main {
 }
 
 section {
-  padding: 40px 20px 20px;
 }
 
 ul {
@@ -19,25 +18,16 @@ img {
   width: 100%;
 }
 
-.hero-data {
-  max-width: 250px;
-  margin: 0 auto 30px auto;
-  color: $bodycopy-grey;
-  p {
-    max-width: 200px;
-    margin: 0 auto;
-    text-align: center;
+section {
+  padding: 40px 15px;
+}
+
+.left-justify {
+  margin-left: -50px;
+}
+
+@media #{$media-720px} {
+  section {
+    padding: 40px 60px;
   }
 }
-
-.table-grid {
-  display: flex;
-  flex-direction: column;
-}
-
-.table-data {
-  margin-bottom: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #c9c9c9;
-}
-

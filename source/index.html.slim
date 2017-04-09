@@ -2,7 +2,7 @@
 title: CIRR Report
 ---
 
-section#section-requirements
+section.section-requirements
   h2 Requirements
   ul
     li Individual Assessment
@@ -13,41 +13,44 @@ section#section-requirements
 
   p Full pass criteria can be found here: <a href='https://github.com/turingschool/portfolios'>https://github.com/turingschool/portfolios</a>
 
-section#section-overview.black-bg
+section.section-overview.black-bg
   h2 Overview
-  article.hero-data
-    div#overview-grad-circle
-    p Percentage of students that graduated within 100% of published program length.
-  article.hero-data
-    div#overview-employed-circle
-    p Percentage of students employed in full time, paid field positions withing 180 days of graduation.
-  article.hero-data
-    div.data-point-large $75,000
-    p Median annual base salary of graduates with paid, in-field jobs.
+  div.hero-stats
+    article.hero-data
+      div#overview-grad-circle
+      p Percentage of students that graduated within 100% of published program length.
+    article.hero-data
+      div#overview-employed-circle
+      p Percentage of students employed in full time, paid field positions withing 180 days of graduation.
+    article.hero-data.hero-number
+      div.data-point-lg $75,000
+      p Median annual base salary of graduates with paid, in-field jobs.
 
-section#section-graduation-data.blue-bg
+section.section-graduation-data.blue-bg
   h2 Graduation Data
-  article.hero-data
-    div#grad-data-reg-program-circle
-    p Percentage of students that graduated within 100% of published program length.
-  article.hero-data
-    div#grad-data-long-program-circle
-    p Percentage of students that graduated within 150% of published program length.
-  article.hero-data
-    = partial 'layouts/fpo'
+  div.hero-stats
+    article.hero-data
+      div#grad-data-reg-program-circle
+      p Percentage of students that graduated within 100% of published program length.
+    article.hero-data
+      div#grad-data-long-program-circle
+      p Percentage of students that graduated within 150% of published program length.
+    article.hero-data
+      / = partial 'layouts/fpo'
 
-section#section-employment-results-primary
+section.section-employment-results
   h2 Employment Results
   h3 Employed Full Time in Paid, In Field Positions
-  article.hero-data
-    div#employment-90-circle
-    p Within 90 Days
-  article.hero-data
-    div#employment-180-circle
-    p Within 180 Days
-  article.hero-data
-    = partial 'layouts/fpo'
-  section.table-grid
+  div.hero-stats.left-justify
+    article.hero-data
+      div#employment-90-circle
+      p Within 90 Days
+    article.hero-data
+      div#employment-180-circle
+      p Within 180 Days
+    article.hero-data
+      / = partial 'layouts/fpo'
+  div.table-grid
     article.table-data
       p.heading Full time employee
       p.data-point-md 63%
@@ -55,7 +58,7 @@ section#section-employment-results-primary
       p.data-point-md 72%
       p Within 90 Days
     article.table-data
-      p.heading Full time apprenticeship, internship, contract position
+      p.heading Full time apprentice, intern, contract
       p.data-point-md 1%
       p Within 90 Days
       p.data-point-md 3%
@@ -68,15 +71,16 @@ section#section-employment-results-primary
       p Within 180 Days
 
   h3 Employed in Other Positions
-  article.hero-data
-    div#employ-position-90-circle
-    p Within 90 Days
-  article.hero-data
-    div#employ-position-180-circle
-    p Within 180 Days
-  article.hero-data
-    = partial 'layouts/fpo'
-  section.table-grid
+  div.hero-stats.left-justify
+    article.hero-data
+      div#employ-position-90-circle
+      p Within 90 Days
+    article.hero-data
+      div#employ-position-180-circle
+      p Within 180 Days
+    article.hero-data
+      / = partial 'layouts/fpo'
+  div.table-grid
     article.table-data
       p.heading Started a new company or venture after graduation
       p.data-point-md 0%
@@ -102,20 +106,21 @@ section#section-employment-results-primary
       p.data-point-md 0%
       p Within 180 Days
 
-section#interstitial
+section.section-interstitial
   img src='images/girls-laptop.png' alt='Two girls pair programming in a classroom setting'
 
-section#section-employment-results-secondary
+section.section-employment-results
   h3 Not Employed
-  article.hero-data
-    div#not-employed-90-circle
-    p Within 90 Days
-  article.hero-data
-    div#not-employed-180-circle
-    p Within 180 Days
-  article.hero-data
-    = partial 'layouts/fpo'
-  section.table-grid
+  div.hero-stats.left-justify
+    article.hero-data
+      div#not-employed-90-circle
+      p Within 90 Days
+    article.hero-data
+      div#not-employed-180-circle
+      p Within 180 Days
+    article.hero-data
+      / = partial 'layouts/fpo'
+  div.table-grid
     article.table-data
       p.heading Unemployed and still seeking a job
       p.data-point-md 18%
@@ -130,21 +135,22 @@ section#section-employment-results-secondary
       p Within 180 Days
 
   h3 Did Not Respond to Survey
-  article.hero-data
-    div#no-response-90-circle
-    p Within 90 Days
-  article.hero-data
-    div#no-response-180-circle
-    p Within 180 Days
-  article.hero-data
-    = partial 'layouts/fpo'
+  div.hero-stats.left-justify
+    article.hero-data
+      div#no-response-90-circle
+      p Within 90 Days
+    article.hero-data
+      div#no-response-180-circle
+      p Within 180 Days
+    article.hero-data
+      / = partial 'layouts/fpo'
 
   h3 Median Annual Base Salary of Graduates with Paid, In-Field Jobs
   div.data-point-lg $75,000
 
-  = partial 'layouts/fpo'
+  / = partial 'layouts/fpo'
 
-  section.table-grid
+  div.table-grid
     article.table-data
       p.heading Under $60,000
       p.data-point-md 4%
@@ -191,9 +197,9 @@ section#section-employment-results-secondary
   h3 Percentage of job obtainers who reported salaries
   div.data-point-lg 95%
 
-section#section-job-titles.blue-bg
+section.section-job-titles.blue-bg
   h2 Frequent Job Titles
-  section.table-grid
+  div.table-grid
     article.table-data
       p.heading Software Engineer
       p.data-point-md 34%
@@ -228,8 +234,8 @@ section#section-job-titles.blue-bg
       p.heading Other
       p.data-point-md 3%
 
-section#section-cs-degree.black-bg
+section.section-cs-degree.black-bg
   h2 Students With Prior Computer Science Degree
-  div.data-point-lg 6%
+  p.data-point-md 6%
 
 = partial 'layouts/coloredborder'
