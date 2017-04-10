@@ -90,7 +90,10 @@ GEM
       activesupport (>= 3.1)
     parallel (1.11.1)
     public_suffix (2.0.5)
+    puma (3.7.0)
     rack (2.0.1)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.9.8)
@@ -117,6 +120,8 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-livereload
+  puma
+  rack-contrib
   slim
   tzinfo-data
   wdm (~> 0.1)
