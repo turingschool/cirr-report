@@ -25,17 +25,6 @@ html lang='en'
 
   body
     main
-      header.masthead
-        nav#masthead-nav
-          a.nav-link href='/index.html' 2016 CIRR Report
-          a.nav-link href='/turing-report.html' 2016 Turing Report
-        footer.masthead-footer
-          div.masthead-description
-            h4 Turing School of Software & Design
-            p CIRR Report
-            p Reporting Period: 1.1.2016 - 6.30.2016
-            p Enrolled Students: 71
-            p Published Course Length: 210 Days
-          img.masthead-logo src='images/cirr-logo.png' alt='Council on Integrity in Results Reporting Logo'
+      = partial 'layouts/masthead'
       = partial 'layouts/coloredborder'
       = yield

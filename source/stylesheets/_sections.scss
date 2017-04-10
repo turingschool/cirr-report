@@ -50,3 +50,52 @@
     border-color: $turing-color-dark;
   }
 }
+
+.section-cs-degree {
+  .data-point-md {
+    margin-top: 40px;
+  }
+}
+
+
+@media #{$media-720px} {
+  .section-overview.black-bg {
+    .hero-stats {
+      margin-left: -50px;
+      .hero-data {
+        margin-right: 50px;
+      }
+    }
+  }
+  .section-graduation-data.blue-bg {
+    .hero-stats {
+      margin-left: -50px;
+      .hero-data {
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+// this is super hacky...
+
+@media #{$media-1120px} {
+  .hero-number {
+    position: relative;
+    .data-point-lg {
+      position: absolute;
+      top: 110px;
+      font-size: 100px;
+    }
+    p {
+      position: absolute;
+      bottom: 20px;
+    }
+  }
+
+  .section-cs-degree.black-bg {
+    .data-point-md {
+      font-size: 60px;
+    }
+  }
+}
