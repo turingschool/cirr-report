@@ -6,4 +6,7 @@ gem 'middleman-livereload'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'slim'
-gem 'middleman-gh-pages'
+
+# Config server and static heroku stuff
+gem 'puma'
+gem 'rack-contrib'
