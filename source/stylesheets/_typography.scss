@@ -61,17 +61,10 @@ a {
   text-transform: uppercase;
 }
 
-.data-point-md,
-.data-point-lg {
+.data-point {
   font-family: 'HelveticaBold';
-}
-
-.data-point-md {
-  font-size: 45px;
-}
-.data-point-lg {
   font-size: 60px;
-  color: $headline-grey;
+  color: $turing-color;
 }
 
 .table-data .heading {

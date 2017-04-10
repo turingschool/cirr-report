@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 300px;
+  min-height: 30vh;
   background-color: grey;
   padding: 20px;
   color: white;
+  background: #212121 url(../images/keyboard.jpg) no-repeat;
+  background-size: cover;
 }
 
 #masthead-nav {
@@ -22,4 +24,17 @@
   margin: 10px 0;
   background: url(../images/down-stinger.png) no-repeat 90% 30%;
   background-size: 20px;
+}
+
+
+@media #{$media-720px} {
+  .masthead {
+    min-height: 50vh;
+  }
+}
+
+@media #{$media-1120px} {
+  .masthead {
+    min-height: 70vh;
+  }
 }
