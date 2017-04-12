@@ -9,15 +9,15 @@
   height: 10px;
 }
 
-.frontend {
+.frontend-bg {
   background: $frontend-color;
 }
 
-.backend {
+.backend-bg {
   background: $backend-color;
 }
 
-.turing {
+.turing-bg {
   background: $turing-color;
 }
 
@@ -33,6 +33,21 @@
   width: 300px;
   text-align: center;
   color: $bodycopy-grey;
+}
+
+.hero-data-point-container {
+  .data-point {
+    display: inline;
+  }
+}
+
+.hero-data-icon {
+  max-width: 50px;
+  margin-left: 20px;
+}
+
+.turing-stats-hero {
+  margin-top: 40px;
 }
 
 .table-grid {

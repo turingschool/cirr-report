@@ -9,6 +9,18 @@
   flex-direction: column;
   .data-point {
     color: $turing-color;
+    &.frontend {
+      color: $frontend-color;
+    }
+    &.backend {
+      color: $backend-color;
+    }
+    &.grey {
+      color: #d2d0d0;
+    }
+    &.turing {
+      color: $turing-color;
+    }
   }
 }
 
