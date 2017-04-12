@@ -38,6 +38,7 @@
 .hero-data-point-container {
   .data-point {
     display: inline;
+    line-height: 2;
   }
 }
 
@@ -48,6 +49,8 @@
 
 .turing-stats-hero {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .table-grid {
