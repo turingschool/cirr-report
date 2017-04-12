@@ -1,4 +1,4 @@
-$( document ).ready(function() { // 6,32 5,38 2,34
+$( document ).ready(function() {
 
 //section-overview-data
 
@@ -156,3 +156,12 @@ $( document ).ready(function() { // 6,32 5,38 2,34
       fontColor: '#5c5c5c'
   });
 });
+
+// collapse the navbar on scroll
+// $(window).scroll(function() {
+//     if ($(".navbar").offset().top > 20) {
+//         $(".navbar-fixed-top").addClass("top-nav-collapse");
+//     } else {
+//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+//     }
+// });

@@ -12,6 +12,11 @@
 
 #masthead-nav {
   border: 1px solid magenta;
+  .temp-title {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+  }
 }
 
 .masthead-logo {
@@ -22,10 +27,25 @@
   display: block;
   max-width: 300px;
   margin: 10px 0;
-  background: url(../images/down-stinger.png) no-repeat 90% 30%;
-  background-size: 20px;
 }
 
+.stinger {
+  width: 20px;
+}
+
+.top-nav-collapse {
+  display: none;
+}
+
+
+@media #{$media-460px} {
+  .nav-link {
+    display: inline-block;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
 
 @media #{$media-720px} {
   .masthead {

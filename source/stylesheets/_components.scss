@@ -40,6 +40,31 @@
   flex-wrap: wrap;
   margin-top: 40px;
 }
+.table-grid.table-row {
+  padding-top: 20px;
+  border-top: 1px solid #c9c9c9;
+  .table-data {
+    border: none;
+  }
+}
+
+.table-row.second-row {
+  .data-point {
+    color: $turing-color-level-2;
+  }
+}
+
+.table-row.third-row {
+  .data-point {
+    color: $turing-color-level-3;
+  }
+}
+
+.table-row.fourth-row {
+  .data-point {
+    color: $turing-color-level-4;
+  }
+}
 
 .table-data {
   margin-bottom: 20px;
