@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 30vh;
+  margin-bottom: 20px;
   background-color: grey;
   padding: 20px;
   color: white;
@@ -26,13 +27,20 @@
   max-width: 300px;
   margin: 10px 0;
   color: #7e7d7f;
+  img {
+    display: none;
+  }
   &.is-active {
-    color: magenta;
+    color: #fff;
+    img {
+      display: inline-block;
+    }
   }
 }
 
 .stinger {
   width: 20px;
+  margin-left: 10px;
 }
 
 .masthead-footer {
@@ -43,7 +51,7 @@
   .nav-link {
     display: inline-block;
     &:first-child {
-      margin-right: 20px;
+      margin-right: 50px;
     }
   }
 }
