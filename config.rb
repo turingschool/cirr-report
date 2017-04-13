@@ -32,9 +32,9 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/basics/helper-methods/
 
 # helpers do
-#   def some_helper
-#     'Helping'
-#   end
+  # def nav_active(path)
+  #   current_page.path == path ? {:class => "is-active"} : {}
+  # end
 # end
 
 # Build-specific configuration

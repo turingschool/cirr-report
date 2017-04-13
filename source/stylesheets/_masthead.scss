@@ -3,12 +3,15 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 30vh;
-  margin-bottom: 20px;
   background-color: grey;
   padding: 20px;
   color: white;
   background: #212121 url(../images/keyboard.jpg) no-repeat;
   background-size: cover;
+}
+
+#masthead-nav {
+  margin-bottom: 20px;
 }
 
 .logo-container {

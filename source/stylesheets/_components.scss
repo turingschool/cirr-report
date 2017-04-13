@@ -1,12 +1,9 @@
 .colored-border {
   display: flex;
-}
-
-.frontend,
-.backend,
-.turing {
-  width: 33.3333%;
-  height: 10px;
+  div {
+    width: 33.3333%;
+    height: 10px;
+  }
 }
 
 .frontend-bg {

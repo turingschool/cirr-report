@@ -153,19 +153,16 @@ $(document).ready(function() {
       fontColor: '#5c5c5c'
   });
 
-  $('#masthead-nav').click(function(e) {
-    e.preventDefault();
+// I'm sorry...
+
+  $('#masthead-nav').on('click', function() {
     $('a').toggleClass('is-active');
   });
+
+  if (window.location.pathname === '/') {
+    $('.cirr-page').toggleClass('is-active');
+  }
+  else {
+    $('.turing-page').toggleClass('is-active');
+  }
 });
-
-
-
-// collapse the navbar on scroll
-// $(window).scroll(function() {
-//     if ($(".navbar").offset().top > 20) {
-//         $(".navbar-fixed-top").addClass("top-nav-collapse");
-//     } else {
-//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-//     }
-// });
