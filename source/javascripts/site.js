@@ -152,7 +152,13 @@ $(document).ready(function() {
       textSize: 28,
       fontColor: '#5c5c5c'
   });
+
+  $('#masthead-nav').click(function(e) {
+    e.preventDefault();
+    $('a').toggleClass('is-active');
+  });
 });
+
 
 
 // collapse the navbar on scroll
