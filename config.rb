@@ -32,6 +32,10 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/basics/helper-methods/
 
 # helpers do
+  def is_page_active(page)
+    current_page.url == path ? {:class => 'is-active'} : {}
+  end
+
 #   def some_helper
 #     'Helping'
 #   end

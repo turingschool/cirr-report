@@ -1,7 +1,6 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
 //section-overview-data
-
   $("#overview-grad-circle").circliful({
       animation: 1,
       animationStep: 5,
@@ -29,7 +28,6 @@ $( document ).ready(function() {
   });
 
 //section-graduation-data
-
   $("#grad-data-reg-program-circle").circliful({
       animation: 1,
       animationStep: 5,
@@ -58,7 +56,6 @@ $( document ).ready(function() {
   });
 
 //sections-employment
-
   $("#employment-90-circle").circliful({
       animation: 1,
       animationStep: 5,
@@ -156,6 +153,7 @@ $( document ).ready(function() {
       fontColor: '#5c5c5c'
   });
 });
+
 
 // collapse the navbar on scroll
 // $(window).scroll(function() {

@@ -10,15 +10,6 @@
   background-size: cover;
 }
 
-#masthead-nav {
-  border: 1px solid magenta;
-  .temp-title {
-    font-size: 25px;
-    color: #fff;
-    text-transform: uppercase;
-  }
-}
-
 .logo-container {
   display: none;
   position: absolute;
@@ -34,6 +25,10 @@
   display: block;
   max-width: 300px;
   margin: 10px 0;
+  color: #7e7d7f;
+  &.is-active {
+    color: magenta;
+  }
 }
 
 .stinger {
