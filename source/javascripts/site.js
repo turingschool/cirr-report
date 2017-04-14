@@ -9,8 +9,7 @@ $(document).ready(function() {
       foregroundColor: '#f9ae06',
       backgroundColor: '#4d4d4d',
       percentageY: 110,
-      percent: 74.65,
-      decimals: 2,
+      percent: 75,
       textSize: 28,
       fontColor: '#f9ae06'
   });
@@ -36,8 +35,7 @@ $(document).ready(function() {
       foregroundColor: '#0e6574',
       backgroundColor: '#2adbe6',
       percentageY: 110,
-      percent: 74.65,
-      decimals: 2,
+      percent: 75,
       textSize: 28,
       fontColor: '#0e6574'
   });
@@ -49,8 +47,7 @@ $(document).ready(function() {
       foregroundColor: '#0e6574',
       backgroundColor: '#2adbe6',
       percentageY: 110,
-      percent: 91.55,
-      decimals: 2,
+      percent: 92,
       textSize: 28,
       fontColor: '#0e6574'
   });
@@ -112,7 +109,7 @@ $(document).ready(function() {
       foregroundColor: '#2ff1fa',
       backgroundColor: '#e1e1e1',
       percentageY: 110,
-      percent: 27,
+      percent: 18,
       textSize: 28,
       fontColor: '#5c5c5c'
   });
@@ -124,7 +121,7 @@ $(document).ready(function() {
       foregroundColor: '#2ff1fa',
       backgroundColor: '#e1e1e1',
       percentageY: 110,
-      percent: 15,
+      percent: 7,
       textSize: 28,
       fontColor: '#5c5c5c'
   });
