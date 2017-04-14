@@ -31,3 +31,11 @@ There are a series of enhancements and/or technical cleanup required to move thi
 * __Design__: These are issues where aspects of the desired UI were not fully built out and/or areas of design related optimization needed.
 * __Technical Debt__: Recognized areas of hurried janky code. :poop: happens.
 * __Features/Enhancements__: Larger scale additions and/or integrations required for future maintainability.
+
+### Design References
+
+* [CIRR Report Illustrator File](https://www.dropbox.com/s/pkjqyxv404m8dzn/CIRR.ai?dl=0)
+* [CIRR Report Sketch File](https://www.dropbox.com/s/ng53egdfwfyieio/2016_CIRR.sketch?dl=0)
+* [Brand Assets & Styleguide](https://brandfolder.com/turing-school-of-software-design)
+
+
