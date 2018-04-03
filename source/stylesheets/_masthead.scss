@@ -61,7 +61,7 @@
 
 @media #{$media-720px} {
   .masthead {
-    min-height: 50vh;
+    min-height: 40vh;
   }
   .logo-container {
     display: block;
@@ -71,6 +71,6 @@
 
 @media #{$media-1120px} {
   .masthead {
-    min-height: 70vh;
+    min-height: 50vh;
   }
 }

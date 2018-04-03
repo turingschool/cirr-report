@@ -1,18 +1,6 @@
 $(document).ready(function() {
 
 //section-overview-data
-  $("#overview-grad-circle").circliful({
-      animation: 1,
-      animationStep: 5,
-      foregroundBorderWidth: 10,
-      backgroundBorderWidth: 10,
-      foregroundColor: '#f9ae06',
-      backgroundColor: '#4d4d4d',
-      percentageY: 110,
-      percent: 75,
-      textSize: 28,
-      fontColor: '#f9ae06'
-  });
   $("#overview-employed-circle").circliful({
       animation: 1,
       animationStep: 5,
@@ -27,18 +15,6 @@ $(document).ready(function() {
   });
 
 //section-graduation-data
-  $("#grad-data-reg-program-circle").circliful({
-      animation: 1,
-      animationStep: 5,
-      foregroundBorderWidth: 10,
-      backgroundBorderWidth: 10,
-      foregroundColor: '#0e6574',
-      backgroundColor: '#2adbe6',
-      percentageY: 110,
-      percent: 75,
-      textSize: 28,
-      fontColor: '#0e6574'
-  });
   $("#grad-data-long-program-circle").circliful({
       animation: 1,
       animationStep: 5,
