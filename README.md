@@ -19,7 +19,7 @@ bundle install
 Launch the app by running:
 
 ```
-middleman server
+bin/middleman server
 ```
 
 Visit the site at http://127.0.0.1:4567
