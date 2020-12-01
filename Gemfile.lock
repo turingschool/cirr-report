@@ -91,9 +91,9 @@ GEM
     parallel (1.12.1)
     public_suffix (3.0.2)
     puma (3.11.3)
-    rack (2.0.4)
-    rack-contrib (1.2.0)
-      rack (>= 0.9.1)
+    rack (2.2.3)
+    rack-contrib (2.3.0)
+      rack (~> 2.0)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.10.3)
